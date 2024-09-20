@@ -4,7 +4,7 @@ def linearSearch(array, n, x):
         if (array[i] == x):
             return i
     return -1
-
+//array creation
 array = [2, 4, 0, 1, 9]
 x=int(input("enter value to be searched:"))
 n = len(array)
